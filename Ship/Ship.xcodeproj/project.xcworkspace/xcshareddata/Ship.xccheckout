@@ -10,29 +10,45 @@
 	<string>Ship</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< Updated upstream
 		<key>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</key>
+=======
+		<key>ECD864ED8995042B03C43CDB8178FBB66411E37B</key>
+>>>>>>> Stashed changes
 		<string>https://github.com/hdo272/ship.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Ship/Ship.xcodeproj/project.xcworkspace</string>
+	<string>Ship/Ship.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< Updated upstream
 		<key>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</key>
+=======
+		<key>ECD864ED8995042B03C43CDB8178FBB66411E37B</key>
+>>>>>>> Stashed changes
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/hdo272/collegeadm.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< Updated upstream
 	<string>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</string>
+=======
+	<string>ECD864ED8995042B03C43CDB8178FBB66411E37B</string>
+>>>>>>> Stashed changes
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< Updated upstream
 			<string>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</string>
+=======
+			<string>ECD864ED8995042B03C43CDB8178FBB66411E37B</string>
+>>>>>>> Stashed changes
 			<key>IDESourceControlWCCName</key>
 			<string>ship</string>
 		</dict>
