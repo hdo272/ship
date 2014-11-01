@@ -13,7 +13,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 -(void)openActiveSessionWithPermissions:(NSArray *)permissions allowLoginUI:(BOOL)allowLoginUI;
 
 @end

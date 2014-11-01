@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Appcoda. All rights reserved.
 //
 
+#import "SWRevealViewController.h"
 #import "ViewController.h"
 #import <FacebookSDK/FacebookSDK.h>
 #import "AppDelegate.h"
@@ -26,6 +27,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Set the side bar button action. When it's tapped, it'll show up the sidebar.
+    _sidebarButton.target = self.revealViewController;
+    _sidebarButton.action = @selector(revealToggle:);
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
@@ -111,7 +118,7 @@
             
             
             [FBRequestConnection startWithGraphPath:@"me"
-                                         parameters:@{@"fields": @"first_name, last_name, picture.type(normal), email"}
+                                         parameters:@{@"fields": @"first_name, last_name, picture.type(square), email"}
                                          HTTPMethod:@"GET"
                                   completionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
                                       if (!error) {

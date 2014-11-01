@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C028C6791A054371003787E8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C028C6781A054371003787E8 /* SWRevealViewController.m */; };
+		C028C67F1A0548A5003787E8 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C028C67E1A0548A5003787E8 /* SidebarViewController.m */; };
+		C028C6831A054912003787E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C028C6801A054912003787E8 /* Default-568h@2x.png */; };
+		C028C6841A054912003787E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C028C6811A054912003787E8 /* Default.png */; };
+		C028C6851A054912003787E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C028C6821A054912003787E8 /* Default@2x.png */; };
+		C028C6891A054A80003787E8 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C028C6871A054A80003787E8 /* menu.png */; };
+		C028C68A1A054A80003787E8 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C028C6881A054A80003787E8 /* menu@2x.png */; };
 		C0FE2DCC192BA59B0070BB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FE2DCB192BA59B0070BB65 /* Foundation.framework */; };
 		C0FE2DCE192BA59B0070BB65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FE2DCD192BA59B0070BB65 /* CoreGraphics.framework */; };
 		C0FE2DD0192BA59B0070BB65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FE2DCF192BA59B0070BB65 /* UIKit.framework */; };
@@ -34,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C028C6771A054371003787E8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C028C6781A054371003787E8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C028C67D1A0548A5003787E8 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarViewController.h; path = ../SidebarViewController.h; sourceTree = "<group>"; };
+		C028C67E1A0548A5003787E8 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarViewController.m; path = ../SidebarViewController.m; sourceTree = "<group>"; };
+		C028C6801A054912003787E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../../../Downloads/SidebarDemoEmpty/SidebarDemo/Default-568h@2x.png"; sourceTree = "<group>"; };
+		C028C6811A054912003787E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../../Downloads/SidebarDemoEmpty/SidebarDemo/Default.png; sourceTree = "<group>"; };
+		C028C6821A054912003787E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../../../Downloads/SidebarDemoEmpty/SidebarDemo/Default@2x.png"; sourceTree = "<group>"; };
+		C028C6871A054A80003787E8 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../../../../Downloads/SidebarDemoEmpty/SidebarDemo/menu.png; sourceTree = "<group>"; };
+		C028C6881A054A80003787E8 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "../../../../../Downloads/SidebarDemoEmpty/SidebarDemo/menu@2x.png"; sourceTree = "<group>"; };
 		C0FE2DC8192BA59B0070BB65 /* ManualFBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualFBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FE2DCB192BA59B0070BB65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0FE2DCD192BA59B0070BB65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C028C6741A054349003787E8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C028C6761A054371003787E8 /* SWRevealViewController */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C028C6761A054371003787E8 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C028C6771A054371003787E8 /* SWRevealViewController.h */,
+				C028C6781A054371003787E8 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = "../../../../../Downloads/SWRevealViewController-master/SWRevealViewController";
+			sourceTree = "<group>";
+		};
+		C028C6861A054A6F003787E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C028C6871A054A80003787E8 /* menu.png */,
+				C028C6881A054A80003787E8 /* menu@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		C0FE2DBF192BA59B0070BB65 = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +155,15 @@
 		C0FE2DD1192BA59B0070BB65 /* ManualFBLogin */ = {
 			isa = PBXGroup;
 			children = (
+				C028C67D1A0548A5003787E8 /* SidebarViewController.h */,
+				C028C67E1A0548A5003787E8 /* SidebarViewController.m */,
 				C0FE2DDA192BA59B0070BB65 /* AppDelegate.h */,
 				C0FE2DDB192BA59B0070BB65 /* AppDelegate.m */,
 				C0FE2DDD192BA59B0070BB65 /* Main.storyboard */,
 				C0FE2DE0192BA59B0070BB65 /* ViewController.h */,
 				C0FE2DE1192BA59B0070BB65 /* ViewController.m */,
 				C0FE2DE3192BA59B0070BB65 /* Images.xcassets */,
+				C028C6741A054349003787E8 /* Library */,
 				C0FE2DD2192BA59B0070BB65 /* Supporting Files */,
 			);
 			path = ManualFBLogin;
@@ -126,6 +172,10 @@
 		C0FE2DD2192BA59B0070BB65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C028C6861A054A6F003787E8 /* Images */,
+				C028C6801A054912003787E8 /* Default-568h@2x.png */,
+				C028C6811A054912003787E8 /* Default.png */,
+				C028C6821A054912003787E8 /* Default@2x.png */,
 				C0FE2DD3192BA59B0070BB65 /* ManualFBLogin-Info.plist */,
 				C0FE2DD4192BA59B0070BB65 /* InfoPlist.strings */,
 				C0FE2DD7192BA59B0070BB65 /* main.m */,
@@ -228,9 +278,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C028C6851A054912003787E8 /* Default@2x.png in Resources */,
 				C0FE2DE4192BA59B0070BB65 /* Images.xcassets in Resources */,
+				C028C6831A054912003787E8 /* Default-568h@2x.png in Resources */,
 				C0FE2DD6192BA59B0070BB65 /* InfoPlist.strings in Resources */,
+				C028C6891A054A80003787E8 /* menu.png in Resources */,
+				C028C68A1A054A80003787E8 /* menu@2x.png in Resources */,
 				C0FE2DDF192BA59B0070BB65 /* Main.storyboard in Resources */,
+				C028C6841A054912003787E8 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C028C67F1A0548A5003787E8 /* SidebarViewController.m in Sources */,
 				C0FE2DE2192BA59B0070BB65 /* ViewController.m in Sources */,
 				C0FE2DDC192BA59B0070BB65 /* AppDelegate.m in Sources */,
 				C0FE2DD8192BA59B0070BB65 /* main.m in Sources */,
+				C028C6791A054371003787E8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

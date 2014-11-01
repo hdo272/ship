@@ -5,9 +5,9 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FE8C39F1-11A0-480D-809A-6264D3080C0B</string>
+	<string>98194979-4EF3-4FF5-8A85-3D7E2306ADF4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>BShip</string>
+	<string>ManualFBLogin</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C1ED5EF190B035138F8FEDF6DBE8C2EC1BB84C1E</key>
@@ -16,7 +16,7 @@
 		<string>https://github.com/hdo272/ship.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BShip/BShip.xcodeproj</string>
+	<string>ManualFBLogin/ManualFBLogin.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C1ED5EF190B035138F8FEDF6DBE8C2EC1BB84C1E</key>

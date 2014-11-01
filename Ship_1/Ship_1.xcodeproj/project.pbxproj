@@ -1562,6 +1562,7 @@
 				C0AA27D01A048DB1009BFF9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0AA27D11A048DB1009BFF9B /* Build configuration list for PBXNativeTarget "Ship_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -1570,6 +1571,7 @@
 				C0AA27D31A048DB1009BFF9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

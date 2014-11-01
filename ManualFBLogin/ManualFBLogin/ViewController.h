@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+
 @property (weak, nonatomic) IBOutlet UIButton *btnToggleLoginState;
 
 @property (weak, nonatomic) IBOutlet UIImageView *imgProfilePicture;
