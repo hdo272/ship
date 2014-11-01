@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     // In your viewDidLoad method:
-    self.loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
+    self.loginView.readPermissions = @[@"public_profile", @"email", @"user_friends", @"read_friendlists"];
 }
 
 - (void)didReceiveMemoryWarning {
