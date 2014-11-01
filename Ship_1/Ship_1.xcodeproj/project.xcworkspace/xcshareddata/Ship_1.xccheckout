@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>41E21BDD-AD31-41D7-B5D9-B6A97F3C7958</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ship_1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</key>
+		<string>https://github.com/hdo272/ship.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Ship_1/Ship_1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hdo272/ship.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2C0A902-A77B-44A2-8C88-DBEE3151DCBE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ship</string>
+		</dict>
+	</array>
+</dict>
+</plist>
