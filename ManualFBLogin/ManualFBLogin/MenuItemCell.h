@@ -1,5 +1,5 @@
 //
-//  SidebarViewController.h
+//  MenuItemCell.h
 //  ManualFBLogin
 //
 //  Created by Hillary Do on 11/1/14.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SidebarViewController : UITableViewController
-
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+@interface MenuItemCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *ProfilePicture;
-
 
 @end

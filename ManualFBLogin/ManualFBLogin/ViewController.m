@@ -50,7 +50,7 @@
     [self hideUserInfo:YES];
     
     // Make the image view rounded and with border.
-    self.imgProfilePicture.layer.masksToBounds = YES;
+    //self.imgProfilePicture.layer.masksToBounds = YES;
     self.imgProfilePicture.layer.cornerRadius = 30.0;
     self.imgProfilePicture.layer.borderColor = [UIColor whiteColor].CGColor;
     self.imgProfilePicture.layer.borderWidth = 1.0;
